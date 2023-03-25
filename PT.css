@@ -1,0 +1,84 @@
+
+body {
+  background-color: #000000;
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#itemInput {
+  background-color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: #000000;
+  display: block;
+  font-size: 18px;
+  margin: 0 auto;
+  padding: 10px;
+  text-align: center;
+  width: 50%;
+}
+
+button {
+  background-color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  color: #000000;
+  cursor: pointer;
+  display: block;
+  font-size: 18px;
+  margin: 10px auto;
+  padding: 10px;
+  text-align: center;
+  width: 20%;
+}
+
+button:hover {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+#itemsList {
+  margin: 0 auto;
+  max-width: 50%;
+}
+
+#itemsList div {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: #000000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 18px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+#itemsList div button {
+  background-color: #000000;
+  border: none;
+  border-radius: 8px;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 14px;
+  padding: 5px;
+}
+
+#itemsList div button:hover {
+  background-color: #ffffff;
+  color: #000000;
+}
+
